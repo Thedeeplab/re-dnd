@@ -1119,6 +1119,11 @@ browserslist@^4.11.1:
     node-releases "^1.1.53"
     pkg-up "^2.0.0"
 
+bs-fetch@^0.6.2:
+  version "0.6.2"
+  resolved "https://registry.yarnpkg.com/bs-fetch/-/bs-fetch-0.6.2.tgz#37d982e9f79b9bc44c23e87ae78ccbee1f869adf"
+  integrity sha512-VXEjp8kY3vHPckaoy3d96Bx0KYjJAPLNISBwfpwMN26K6DtuZYwI2HKhx7zeHBajz1bRArfx7O8OOLcdtujMvg==
+
 bs-log@1.1.0:
   version "1.1.0"
   resolved "https://registry.yarnpkg.com/bs-log/-/bs-log-1.1.0.tgz#5866c611d39b1a490d0d1772f91ed98162fef885"
@@ -1129,10 +1134,12 @@ bs-platform@7.2.2:
   resolved "https://registry.yarnpkg.com/bs-platform/-/bs-platform-7.2.2.tgz#76fdc63e4889458ae3d257a0132107a792f2309c"
   integrity sha512-PWcFfN+jCTtT/rMaHDhKh+W9RUTpaRunmSF9vbLYcrJbpgCNW6aFKAY33u0P3mLxwuhshN3b4FxqGUBPj6exZQ==
 
-bs-webapi@0.15.9:
-  version "0.15.9"
-  resolved "https://registry.yarnpkg.com/bs-webapi/-/bs-webapi-0.15.9.tgz#d1dcfbd40499a3b0914daacc4ceef47a0f3c906f"
-  integrity sha512-bmzO6na2HmK01a34qB7afMwfVSrPxkP3EGzUslWObuxbHIlLC0PAMDu4lA8ZL5NasBUctlwnA1QZxox+1aNWWw==
+bs-webapi@0.18.0:
+  version "0.18.0"
+  resolved "https://registry.yarnpkg.com/bs-webapi/-/bs-webapi-0.18.0.tgz#f82277f26ef0901df04c93088d8360ea05e3d8b1"
+  integrity sha512-JvpmIMkkjSfxBaw8KQ3wN9/LrCDAnRCc/8xs452GjEqjtxCUWEU/ukDvz2Hn1f8a5mqlMAPMX5e+8DTyTedLbg==
+  dependencies:
+    bs-fetch "^0.6.2"
 
 bsb-js@1.1.7:
   version "1.1.7"
